@@ -11,4 +11,4 @@ class Solution:
             elif numbers[left] + numbers[right] > target:
                 right -= 1
             else:
-                return left+1,right+1
+                return [left+1,right+1]
