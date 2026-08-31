@@ -21,4 +21,12 @@
 | ------- |
 | [0041-first-missing-positive](https://github.com/AkshatPratik/DSA_Placement_Prep/tree/master/0041-first-missing-positive) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AkshatPratik/DSA_Placement_Prep/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/AkshatPratik/DSA_Placement_Prep/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/AkshatPratik/DSA_Placement_Prep/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
