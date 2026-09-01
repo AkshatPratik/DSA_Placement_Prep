@@ -7,13 +7,15 @@ class Solution:
         for i in range(n):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
+            
             left = i + 1
             right = n - 1
 
             while left < right:
-                total = nums[left] + nums[right] + nums[i]
+                total = nums[i] + nums[left] + nums[right]
+
                 if total == 0:
-                    answer.append([nums[left], nums[right], nums[i]])     
+                    answer.append([nums[i],nums[left],nums[right]])
                     left += 1
                     right -= 1
                     while left < right and nums[left] == nums[left-1]:
