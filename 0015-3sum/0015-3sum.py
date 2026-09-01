@@ -13,7 +13,7 @@ class Solution:
 
             while left < right:
                 total = nums[i] + nums[left] + nums[right]
-
+                
                 if total == 0:
                     answer.append([nums[i],nums[left],nums[right]])
                     left += 1
